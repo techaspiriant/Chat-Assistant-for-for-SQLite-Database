@@ -5,11 +5,7 @@
 Welcome to the Chat Assistant! This is a simple Chat Assistant built using Flask and SQLite. It allows users to interact with an employee database using natural language queries. The assistant understands and responds to common queries related to employees, departments, managers, and salaries.
 
 ## Installation and Setup
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/Divyanshsingh575/Chat_Assistant.git
-   cd Chat_Assistant
-   ```
+
 2. Install dependencies:
    ```sh
    pip install flask
@@ -40,7 +36,7 @@ Welcome to the Chat Assistant! This is a simple Chat Assistant built using Flask
 The `/query` endpoint accepts a JSON payload with a query string. Example request:
 ```json
 {
-    "query": "Show me all employees in the Sales department"
+    "query": "which employee is from Engineering department"
 }
 ```
 Example response:
