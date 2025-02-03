@@ -6,11 +6,11 @@ Welcome to the Chat Assistant! This is a simple Chat Assistant built using Flask
 
 ## Installation and Setup
 
-2. Install dependencies:
+1. Install dependencies:
    ```sh
    pip install flask
    ```
-3. Create an SQLite database named `chat_assistant.db` and set up the required tables:
+2. Create an SQLite database named `chat_assistant.db` and set up the required tables:
    ```sql
    CREATE TABLE Employees (
        ID INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -26,11 +26,11 @@ Welcome to the Chat Assistant! This is a simple Chat Assistant built using Flask
        Manager TEXT
    );
    ```
-4. Run the Flask application:
+3. Run the Flask application:
    ```sh
    python app.py
    ```
-5. 🖥️ The server should start running at http://127.0.0.1:5000/. 🎉
+
 
 ## API Usage 🔧
 The `/query` endpoint accepts a JSON payload with a query string. Example request:
